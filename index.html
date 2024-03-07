@@ -1,56 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz website</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="index.js" defer></script>
-</head>
-<body>
-  <main class="main">
-    <header class="header">
-      <a href="#" class="logo">Quiz</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <script src="question.js"></script>
+  </head>
 
-      <nav class="navbar">
-        <a href="#" class="active">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">contact</a>
-        
-      </nav>
+  <body>
+    <main class="main">
+      <header class="header">
+        <a href="#" class="logo">Quiz</a>
+
+        <nav class="navbar">
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">contact</a>
+        </nav>
       </header>
       <div class="container">
         <section class="quiz-section">
-          
+          <div class="quiz-box">
+            <h1>codehal Quiz</h1>
+            <div class="quiz-header">
+              <span>Quiz website tutorial </span>
+              <span class="header-score">Score: 0/5</span>
+            </div>
+            <h2 class="question-text">What does HTML stand for?</h2>
+            <div class="option-list">
+              <!-- <div class="option">
+                <span>A. Hyper type Multi Language</span>
+              </div>
+              <div class="option">
+                <span>B. Hyper Text Multiple Language</span>
+              </div>
+              <div class="option">
+                <span>C. Hyper Text Markup Language</span>
+              </div>
+              <div class="option">
+                <span>D.Hyper text multi Language</span>
+              </div> -->
+            </div>
+            <div class="quiz-footer">
+              <span class="question-total"> 1 of 5 Question</span>
+              <button class="next-btn">Next</button>
+            </div>
+          </div>
         </section>
-      <section class="home">
-        <div class="home-content">
-          <h1>Quiz website</h1>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia eos architecto suscipit nihil quaerat excepturi
-            nulla, laudantium impedit sunt! Non quo minima nam velit distinctio dolores recusandae ullam, aspernatur amet.
-            Unde ullam illo ipsam molestiae, laborum incidunt ad optio corrupti?</p>
-          <button class="start-btn">Start Quiz</button>
-        </div>
-      
-      </section>
-    </div>
-      </main>
-      <div class="popup-info">
-        <h2>Quiz Guide</h2>
-        <span class="info">1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ad.</span>
-        <span class="info">2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ad.</span>
-        <span class="info">3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ad.</span>
-        <span class="info">4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ad.</span>
-        <span class="info">5. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ad.</span>
-
-        <div class="btn-group">
-          <button class="info-btn exit-btn">Exit quiz</button>
-          <a href="#" class="info-btn continue-btn"> Continue</a>
-        </div>
+        <section class="home">
+          <div class="home-content">
+            <h1>Quiz website</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+              eos architecto suscipit nihil quaerat excepturi nulla, laudantium
+              impedit sunt! Non quo minima nam velit distinctio dolores
+              recusandae ullam, aspernatur amet. Unde ullam illo ipsam
+              molestiae, laborum incidunt ad optio corrupti?
+            </p>
+            <button class="start-btn">Start Quiz</button>
+          </div>
+        </section>
       </div>
-      
-      
-      </body>
-      
-      </html>
+    </main>
+    <div class="popup-info">
+      <h2>Quiz Guide</h2>
+      <span class="info"
+        >1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+        ad.</span
+      >
+      <span class="info"
+        >2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+        ad.</span
+      >
+      <span class="info"
+        >3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+        ad.</span
+      >
+      <span class="info"
+        >4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+        ad.</span
+      >
+      <span class="info"
+        >5. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+        ad.</span
+      >
+
+      <div class="btn-group">
+        <button class="info-btn exit-btn">Exit quiz</button>
+        <a href="#" class="info-btn continue-btn"> Continue</a>
+      </div>
+    </div>
+  </body>
+</html>
